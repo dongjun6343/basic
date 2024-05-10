@@ -1,5 +1,8 @@
 package com.java.basic.poly.ex.pay0;
 
+/**
+ * nullObject 패턴
+ */
 public class DefaultPay implements Pay{
     @Override
     public boolean pay(int amount) {
